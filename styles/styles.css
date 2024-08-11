@@ -1,0 +1,55 @@
+body {
+    background-image: url('../img/fondo-claro2.png');
+}
+.navbar {
+    background-color: rgba(197, 247, 59, 0.548) !important; 
+}
+.nav-new {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinea el contenido a la izquierda */
+    padding: 20px 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-left: 20px; /* Ajusta este valor según necesites */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black; /* Cambia el color según necesites */
+    padding: 10px 15px;
+}
+.logo-img {
+    width: 80px; 
+    height: 80px; 
+    
+}
+.fondo-footer {
+    background-color: rgba(197, 247, 59, 0.548) !important;
+}
+.footer {
+    background-color: #f8f9fa; /* Cambia según el color de fondo deseado */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contact-info {
+    justify-content: flex-end;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
