@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:sass": "sass styles.scss styles.css",
+    "watch:sass": "sass --watch styles.scss:styles.css"
   },
   "keywords": [],
   "author": "Maximiliano-Scarafía",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
 }
